@@ -1,0 +1,87 @@
+@font-face {
+	font-family : ‘이쁜폰트’;
+	src: url (rubik.ttf);	
+}
+
+body {
+    font-family: 'nanumsquare';
+}
+
+.background {
+    background-image: url(/img/background.jpg); background-position:center;
+    background-size:cover;
+    height: 400px;
+    padding-top: 80px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.center-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    padding: 20px;
+}
+
+.center-img h4,.center-img p {
+    text-align: center;
+}
+
+.center-img2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 20px;
+}
+
+.center-img2 h4,.center-img2 p {
+    text-align: center;
+}
+
+
+
+
+
+
+.dark-background {
+    background-color: #22252a;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-color {
+    background-color: bisque;
+}
+
+#button-color {
+    background-color: aquamarine;
+}
+
+
+
+
+.yellow-box {
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.yellow-box:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
+    
+}
+
+.position {
+    position: relative;
+}
